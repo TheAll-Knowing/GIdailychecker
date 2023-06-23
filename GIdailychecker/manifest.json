@@ -1,0 +1,17 @@
+{
+    "name": "Genshin Impact Daily Checker",
+    "description": "auto check-in at hoyolab",
+    "version": "1.0",
+    "host_permissions": [ "*://*.hoyolab.com/*" ],
+    "permissions": [
+        "webRequest"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "48": "icon/icon.png",
+        "96": "icon/icon.png"
+    },
+    "manifest_version": 3
+}
