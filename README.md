@@ -1,2 +1,1 @@
-# GIdailychecker
-Auto check in every day at hoyolab
+Work as chrome extension.
